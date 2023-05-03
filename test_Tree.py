@@ -16,5 +16,5 @@ class TestTree(unittest.TestCase):
 
     def test_find_no_node(self):
         node = self.tree._find(1, self.tree.root)
-        self.assertIsNode(node)
+        self.assertIsNone(node)
 
